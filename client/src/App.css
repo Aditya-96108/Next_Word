@@ -1,0 +1,68 @@
+/* App.css */
+
+/* Gradient background for the entire page */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #FF6F61, #FFB6B9);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Center the content with padding */
+.content {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Style for the title */
+.title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the input box */
+.input-text {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px solid #FF6F61;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-text:focus {
+  border-color: #FFB6B9;
+}
+
+/* Style for the button */
+.predict-button {
+  background-color: #FF6F61;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict-button:hover {
+  background-color: #FFB6B9;
+}
+
+/* Style for the result text */
+.result {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
